@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  /* 0% {
+    opacity: 0;
+    left: 100%;
+  }
+  50% {
+    opacity: 0.5;
+    left: 50%;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0%;
+  } */
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.landing {
+  position: relative;
+  height: 100%;
+  background-image: url("/ZeroToMaster/travelGuide/media/IMG_20190104_184055.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.onLanding {
+  top: 300px;
+  right: 0px;
+  left: 0px;
+  animation: 1s ease-in-out slideFromLeft;
+}
+
+.textCol {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
+  font-family: "Anton", sans-serif;
+}
+
+.btnEnter {
+  background: linear-gradient(
+    -90deg,
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+  font-family: "Anton", sans-serif;
+}
+
+#mc_embed_signup {
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
