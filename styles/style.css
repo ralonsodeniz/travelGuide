@@ -33,7 +33,7 @@ html {
 .landing {
   position: relative;
   height: 100%;
-  background-image: url("/ZeroToMaster/travelGuide/media/IMG_20190104_184055.jpg");
+  background-image: url("../media/IMG_20190104_184055.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
